@@ -1,9 +1,8 @@
+
 #include <iostream>
+using namespace std;
 int main() {
-    for (int i = 2; i <= 100; i += 2) {
-        std::cout << i;
-        if (i < 100) std::cout << " ";
-    }
-    std::cout << "\n";
+    for (int i = 2; i <= 100; i += 2)
+        cout << i << " ";
     return 0;
 }
