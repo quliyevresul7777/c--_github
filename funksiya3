@@ -1,0 +1,15 @@
+// Dairənin sahəsini hesablayin
+#include <iostream>
+using namespace std;
+int r(int x)
+{
+    int s;
+    s=3*r*r;
+    return s;
+}
+
+int main() {
+    int g;
+    g=r(6);
+    cout<<g;
+}
