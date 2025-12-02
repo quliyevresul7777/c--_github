@@ -1,0 +1,21 @@
+// Kvadratın sahəsini və perimetrini hesablayın. 
+#include <iostream>
+using namespace std;
+
+    int terefler(int a){
+    int s;
+    s=a*a;
+    return s;
+    }
+    int t( int a){
+        int p;
+        p=4*a;
+        return p;
+    }
+    int main(){
+        int sahe;
+        sahe=terefler(6);
+        int perimetr;
+        perimetr=t(6);
+        cout<<sahe<<endl<<perimetr<<endl;
+    }
