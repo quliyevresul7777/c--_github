@@ -1,0 +1,17 @@
+// İstifadəçidən daxil edilən ədədin rəqəmləri cəmini hesablayın.
+#include <iostream>
+using namespace std;
+int eded(int x){
+    int s=0;
+    while(x!=0){
+    s=s+x%10;
+    x=x/10;
+    }
+    return s;
+}
+int main() {
+    int y;
+    y=eded(102);
+    cout<<y;
+    
+}
