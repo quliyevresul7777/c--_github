@@ -1,0 +1,14 @@
+//selsini farenheyte cevirme
+#include <iostream>
+using namespace std;
+ float cevirme (int x)
+ {
+  float f;
+  f=x*9/5+32;
+  return f;
+}
+ int main(){
+     int y;
+     y= cevirme(20);
+     cout<<y;
+ }
