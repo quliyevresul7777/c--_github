@@ -1,0 +1,15 @@
+// Üç ədədin ortalamasını tapan proqram
+#include <iostream>
+using namespace std;
+int average(int x, int y, int z)
+{
+    int s;
+    s=(x+y+z)/3;
+    return s;
+}
+int main() {
+    int h;
+    h=average(6,9,3);
+    cout<<h;
+    
+}
