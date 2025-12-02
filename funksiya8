@@ -1,0 +1,22 @@
+// İstifadəçidən daxil edilən ədədin **mükəmməl ədəd** (bölənlərinin cəmi özünə
+//bərabər) olub-olmadığını yoxlayın. 
+
+#include <iostream>
+using namespace std;
+int eded (int a){
+    int y=0;
+    for(int i=2;i<a+11;i++){
+        if(a%i==0){
+            y=y+i;
+        }
+    }
+    return y;
+}
+int main() {
+    int t;
+    t=eded(7);
+    if(t==a){
+        cout<<"mukemmel";
+    }
+    
+}
