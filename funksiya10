@@ -1,0 +1,17 @@
+// Verilmiş ədədin **rəqəmlərinin sayını** hesablayın. 
+#include <iostream>
+using namespace std;
+ int eded(int x){
+     int n=0;
+     while(x!=0){
+       x=x/10;
+       n=n+1;
+       return n;
+     }
+     
+ }
+int main() {
+    int t;
+    t=eded(35467);
+    cout<<t;
+}
