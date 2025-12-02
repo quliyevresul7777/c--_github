@@ -1,0 +1,41 @@
+// iki ededin cemi hasili ferqi bolmesi
+#include <iostream>
+using namespace std;
+int cem(int x,int y) 
+{
+ int z;
+ z=x+y;
+ return z;
+}
+ int ferq( int x, int y)
+ {
+     int b;
+     b=x-y;
+     return b;
+     
+ }
+ int hasil( int x, int y)
+{
+    int c;
+    c=x*y;
+    return c;
+}
+
+int bolme( int x, int y)
+{
+    int d;
+    d=x%y;
+    return d;
+}
+int main(){
+    int q;
+    q=cem(78,93);
+    int s;
+     s=ferq(78,93);
+     int t;
+     t= hasil(78,93);
+     int h;
+     
+     h=bolme(78,93);
+     cout<<q<<endl<<s<<endl<<t<<endl<<h<<endl;
+}
